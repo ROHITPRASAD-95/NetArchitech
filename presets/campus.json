@@ -1,0 +1,19 @@
+{
+    "profile": "Campus LAN",
+    "building_count": 3,
+    "site_count": 1,
+    "endpoints": 1600,
+    "max_distance_m": 400,
+    "access_cable": "Cat6a",
+    "backbone_fiber": "OM4 Multimode Fiber",
+    "poe_access_points": true,
+    "root_network": "10.10.0.0/20",
+    "subnet_requests": {
+        "Building_1": 600,
+        "Building_2": 500,
+        "Building_3": 500
+    },
+    "routing": "OSPF Area 0",
+    "vlan_required": true,
+    "rstp_required": true
+}

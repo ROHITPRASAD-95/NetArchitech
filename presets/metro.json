@@ -1,0 +1,15 @@
+{
+    "profile": "Metro MAN",
+    "site_count": 3,
+    "endpoints": 450,
+    "distance_range_km": {
+        "minimum": 15,
+        "maximum": 35
+    },
+    "fiber": "OS2 Singlemode Fiber",
+    "service": "EVPL",
+    "qos_target_ms": 5,
+    "colo_required": true,
+    "dual_homed_failover": true,
+    "routing": "Multi-Area OSPF or eBGP"
+}

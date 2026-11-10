@@ -1,0 +1,16 @@
+{
+    "profile": "Global WAN",
+    "city_count": 4,
+    "cloud_vpc": true,
+    "endpoints": 2000,
+    "devices": [
+        "IoT",
+        "Scanners"
+    ],
+    "vpn": "IPsec VPN",
+    "routing": [
+        "Multi-Area OSPF",
+        "BGP"
+    ],
+    "route_summarization": true
+}
